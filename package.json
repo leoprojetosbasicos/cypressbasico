@@ -1,0 +1,17 @@
+{
+    "name": "cypressbasico",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "cypress": "cypress run",
+        "cypressapi": "cypress run --browser firefox --spec cypress/e2e/specapi.cy.js",
+        "cypressweb": "cypress run --browser firefox --spec cypress/e2e/specweb.cy.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^11.2.0"
+    },
+    "description": ""
+}
